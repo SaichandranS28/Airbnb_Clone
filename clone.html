@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clone.css">
+    <script src="https://kit.fontawesome.com/29d625543d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="title">
+        <img class="airlogo" src="data:image/png;base64,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" alt="">
+        <button class="bdetails">
+            <p class="where">Anywhere</p> 
+            <p class="week">Any week</p> 
+            <div class="guest_search">
+                <p class="guests">Add guests</p>
+                <!-- <i class="fa-solid fa-magnifying-glass" style="color: #ff006f;"></i> -->
+                <svg class="search" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                        <g transform="translate(-65.28,-65.28) scale(1.51,1.51)"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M43.23179,212.76821v-169.53642h169.53642v169.53642z" id="bgRectangle"></path></g><g fill="#ff5454" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M128,212.76821c-46.81619,0 -84.76821,-37.95202 -84.76821,-84.76821v0c0,-46.81619 37.95202,-84.76821 84.76821,-84.76821v0c46.81619,0 84.76821,37.95202 84.76821,84.76821v0c0,46.81619 -37.95202,84.76821 -84.76821,84.76821z" id="shape"></path></g><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="translate(-5.12,-5.12) scale(5.12,5.12)"><path d="M7,4c-1.64545,0 -3,1.35455 -3,3v36c0,1.64545 1.35455,3 3,3h36c1.64545,0 3,-1.35455 3,-3v-36c0,-1.64545 -1.35455,-3 -3,-3zM7,6h36c0.55454,0 1,0.44545 1,1v36c0,0.55454 -0.44546,1 -1,1h-36c-0.55455,0 -1,-0.44546 -1,-1v-36c0,-0.55455 0.44545,-1 1,-1zM22.5,13c-5.23486,0 -9.5,4.26514 -9.5,9.5c0,5.23486 4.26514,9.5 9.5,9.5c2.25822,0 4.33208,-0.79824 5.96484,-2.12109l7.82813,7.82813l1.41406,-1.41406l-7.82812,-7.82812c1.32286,-1.63277 2.12109,-3.70662 2.12109,-5.96484c0,-5.23486 -4.26514,-9.5 -9.5,-9.5zM22.5,15c4.15398,0 7.5,3.34602 7.5,7.5c0,4.15398 -3.34602,7.5 -7.5,7.5c-4.15398,0 -7.5,-3.34602 -7.5,-7.5c0,-4.15398 3.34602,-7.5 7.5,-7.5z"></path></g></g></g>
+                        </svg>
+            </div>
+        </button>
+        <div class="club">
+            <h4 class="text2">Airbnb your home</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                </svg>
+                <button class="icons">
+                    <div class="iconspace">
+                        <i class="fa-solid fa-bars" style="color: #000000;"></i>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </button>
+        </div>
+    </nav>
+    <div class="second_nav">
+        <div class="hscroll">
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i1.jpeg" alt="">
+                <p class="t1">CountrySide</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i2.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i3.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i4.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i6.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i7.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i8.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i9.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i10.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i11.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i1.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i2.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i3.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i4.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i5.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i6.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i7.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i8.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+            <div class="mi1">
+                <img class="i1" src="/Assignment/Day 3/how-to-css-main/Airbnb resources/i9.jpeg" alt="">
+                <p class="t1">Home</p>
+            </div>
+        </div>
+        <button class="filters">Filters</button>
+        <button class="taxes">Display total before taxes</button>
+    </div>  
+    <br>
+    <div class="box">
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?house view" alt="roomsview">
+            <p class="bhead">Chennai, Tamilnadu</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 12,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?roomview" alt="roomsview">
+            <p class="bhead">Delhi, India</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 18,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?apartment" alt="roomsview">
+            <p class="bhead">Kochin, Kerala</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 17,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?bedroom" alt="roomsview">
+            <p class="bhead">Chennai, Tamilnadu</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 18,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?balcany" alt="roomsview">
+            <p class="bhead">Bangalore, karnataka</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 12,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?terrace" alt="roomsview">
+            <p class="bhead">Chennai, Tamilnadu</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 17,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?kitchen" alt="roomsview">
+            <p class="bhead">Goa, India</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 16,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?hall" alt="roomsview">
+            <p class="bhead">Anantapur, Andhra Pradesh</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?rooms" alt="roomsview">
+            <p class="bhead">Chennai, Tamilnadu</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?halls" alt="roomsview">
+            <p class="bhead">Leh, Jammu and Kashmir</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?buldings" alt="roomsview">
+            <p class="bhead">Trivandrum, Kerala</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?floor" alt="roomsview">
+            <p class="bhead">Nellore, Andhra Pradesh</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?hotel" alt="roomsview">
+            <p class="bhead">Mylapore, Chennai</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?bedrooms" alt="roomsview">
+            <p class="bhead">Hindupur, Andhra Pradesh</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?kitchens" alt="roomsview">
+            <p class="bhead">Mysore, Karnataka</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?bathroom" alt="roomsview">
+            <p class="bhead">Chennai, Tamilnadu</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?buldings" alt="roomsview">
+            <p class="bhead">Hyderabad, Andra Pradesh</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?balcany" alt="roomsview">
+            <p class="bhead">Coimbatore, Tamilnadu</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price" style="font-weight: 800;">Rs: 21,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?halls" alt="roomsview">
+            <p class="bhead">Vellore, Tamilnadu</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 25,000</span> per night</p>
+        </div>
+        <div class="stays">
+            <img class="bimg" src="https://source.unsplash.com/400x400/?hotel" alt="roomsview">
+            <p class="bhead">Mylapore, Chennai</p>
+            <p class="btext">Pleasant room view</p>
+            <p class="bprice"><span class="price">Rs: 24,000</span> per night</p>
+        </div>
+    </div>
+    <button class="showmap">Show map&nbsp;&nbsp;<i class="fa-solid fa-map" style="color: #ffff;"></i></button> 
+    <div class="more">
+        <h3>Continue exploring amazing views</h3>
+        <button class="showbtn">Show more</button>
+    </div>
+    <div class="lastext">
+        <div class="li1">
+            <ul style="list-style-type:none;">
+                <li><span style="font-weight: 900;color: #000;">Support</span></li>
+                <li>Help centre</li>
+                <li>Aircover</li>
+                <li>Cancellation options</li>
+                <li>Report Concern</li>
+            </ul>
+        </div>
+        <div class="li2">
+            <ul style="list-style-type:none;">
+                <li><span style="font-weight: 900;color: #000;">Hosting</span></li>
+                <li>Airbnb your Home</li>
+                <li>Hosting resources</li>
+                <li>Community forum</li>
+                <li>Host responsibly</li>
+            </ul>
+        </div>
+        <div class="li3">
+            <ul style="list-style-type:none;">
+                <li><span style="font-weight: 900;color: #000000;">Airbnb</span></li>
+                <li>Newsroom</li>
+                <li>New features</li>
+                <li>Carees</li>
+                <li>Investors</li>
+            </ul>
+        </div>
+    </div>
+    <div class="lastpara">
+        <p>&copy;Airbnb,Inc.&nbsp;&nbsp;&nbsp;&nbsp;&dot;Privacy&nbsp;&nbsp;&nbsp;&nbsp;&dot;Terms&nbsp;&nbsp;&nbsp;&nbsp;&dot;Sitemap&nbsp;&nbsp;&nbsp;&nbsp;&dot;Company details</p>
+    </div>
+</body>
+</html>
